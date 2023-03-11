@@ -10,6 +10,7 @@
 .head label {
   margin-right: 30px;
   font-size: 13px;
+  cursor: pointer;
 }
 .flag {
   margin-left: 8px;
@@ -35,7 +36,7 @@
 .search-box {
   width: 50%;
   border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
+  border-radius: 50px;
 }
 .search-box i {
   width: 5%;
@@ -88,12 +89,16 @@
 }
 
 /* Navbar */
+.toggle {
+  cursor: pointer;
+}
 .categories {
   background-color: #f6f9fc;
   padding: 0 30px;
   border-radius: 5px;
   height: 6vh;
   margin-top: 5px;
+  cursor: pointer;
 }
 .categories span {
   margin-right: 20px;
